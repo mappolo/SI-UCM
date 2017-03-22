@@ -1,0 +1,9 @@
+mvn test
+
+mvn exec:java -Dexec.mainClass=ssii.p2.AStarSearchHGlobalDirTest -Dexec.classpathScope="test"
+
+mvn exec:java -Dexec.mainClass=ssii.p2.AStarSearchHGlobalDirAndDistanceTest -Dexec.classpathScope="test"
+
+mvn exec:java -Dexec.mainClass=ssii.p2.VacuumApp
+
+Hay que contestar las preguntas
