@@ -1,0 +1,59 @@
+=======> SITUACIÓN INICIAL
+
+Map Coloring (Minimum Conflicts)
+{NSW=RED, WA=GREEN, NT=RED, Q=GREEN, SA=BLUE, V=GREEN, T=BLUE}
+assignment changes: 53
+
+Map Coloring (Backtracking + MRV + DEG + AC3 + LCV)
+{SA=RED, NSW=GREEN, WA=BLUE, NT=GREEN, Q=BLUE, V=BLUE, T=RED}
+assignment changes: 7, domain changes: 3
+
+Map Coloring (Backtracking)
+{NSW=RED, WA=GREEN, NT=RED, Q=GREEN, SA=BLUE, V=GREEN, T=RED}
+assignment changes: 27
+
+
+=======> WA != V
+
+Map Coloring (Minimum Conflicts)
+null
+assignment changes: 1001
+
+Map Coloring (Backtracking + MRV + DEG + AC3 + LCV)
+null
+assignment changes: 9, domain changes: 9
+
+Map Coloring (Backtracking)
+null
+assignment changes: 183
+
+
+=======> NUEVO COLOR "NARANJITO"
+
+Map Coloring (Minimum Conflicts)
+{NSW=NARANJITO, WA=BLUE, NT=GREEN, Q=BLUE, SA=RED, V=GREEN, T=NARANJITO}
+assignment changes: 2
+
+Map Coloring (Backtracking + MRV + DEG + AC3 + LCV)
+{SA=RED, NSW=GREEN, Q=BLUE, NT=GREEN, WA=BLUE, V=NARANJITO, T=RED}
+assignment changes: 7, domain changes: 6
+
+Map Coloring (Backtracking)
+{NSW=RED, WA=RED, NT=GREEN, Q=BLUE, SA=NARANJITO, V=GREEN, T=RED}
+assignment changes: 14
+
+
+=======> NUEVA REGIÓN "XX"
+
+Map Coloring (Minimum Conflicts)
+{NSW=GREEN, WA=RED, NT=GREEN, Q=RED, SA=NARANJITO, V=BLUE, T=GREEN, XX=NARANJITO}
+assignment changes: 9
+
+Map Coloring (Backtracking + MRV + DEG + AC3 + LCV)
+{SA=RED, WA=GREEN, V=BLUE, NSW=GREEN, NT=BLUE, Q=NARANJITO, XX=RED, T=RED}
+assignment changes: 8, domain changes: 7
+
+Map Coloring (Backtracking)
+{NSW=RED, WA=RED, NT=GREEN, Q=BLUE, SA=NARANJITO, V=GREEN, T=RED, XX=BLUE}
+assignment changes: 17
+
